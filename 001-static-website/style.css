@@ -33,7 +33,9 @@ body {
 }
 .nav-item a {
   text-decoration: none;
-  color: #8c5845;
+  /* color: #8c5845; */
+  color: black;
+  font-weight: 400;
 }
 .nav-item:first-child {
   margin-right: auto;
@@ -178,13 +180,19 @@ body {
   justify-content: center;
 }
 .list-container {
+  padding: 1.5rem;
   width: 80%;
   height: 65%;
   border: dotted 0.5rem grey;
-  color: grey;
   font-size: 2rem;
 }
-
+.list-container ul {
+  margin-top: 2rem;
+  padding-left: 5rem;
+}
+.list-container li {
+  margin: 0.5rem;
+}
 /* Contact */
 
 #contact {
